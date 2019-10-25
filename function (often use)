@@ -1,0 +1,15 @@
+#include <cstdlib> // 绝对值函数 abs();
+#include <algorithm>  //排序sort()函数 ;
+//用法 ：
+
+bool compare(int a,int b)
+{
+    return abs(a)>abs(b);
+}
+a[100];
+sort(a,a+20,compare);
+for(i=1;i<=n;i++)
+cout<<a[i]<<endl; 
+// 
+next time 
+// 写常用库的用法.
